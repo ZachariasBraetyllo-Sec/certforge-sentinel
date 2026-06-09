@@ -1,0 +1,57 @@
+[
+  {
+    "learner_id": "L-1001",
+    "role": "Junior SOC Analyst",
+    "certification_goal": "Security+",
+    "practice_score_avg": 68,
+    "hours_studied": 10,
+    "meeting_hours_per_week": 18,
+    "focus_hours_per_week": 8,
+    "weak_topics": ["Network Security", "Incident Response", "Access Control"],
+    "preferred_learning_slot": "Evening"
+  },
+  {
+    "learner_id": "L-1002",
+    "role": "Help Desk Technician Transitioning into Cybersecurity",
+    "certification_goal": "SC-900",
+    "practice_score_avg": 76,
+    "hours_studied": 16,
+    "meeting_hours_per_week": 14,
+    "focus_hours_per_week": 12,
+    "weak_topics": ["Compliance Concepts", "Identity Governance"],
+    "preferred_learning_slot": "Morning"
+  },
+  {
+    "learner_id": "L-1003",
+    "role": "Cloud Security Trainee",
+    "certification_goal": "AZ-900",
+    "practice_score_avg": 83,
+    "hours_studied": 22,
+    "meeting_hours_per_week": 10,
+    "focus_hours_per_week": 18,
+    "weak_topics": ["Azure Cost Management"],
+    "preferred_learning_slot": "Afternoon"
+  },
+  {
+    "learner_id": "L-1004",
+    "role": "Security Operations Intern",
+    "certification_goal": "Google Cybersecurity Certificate",
+    "practice_score_avg": 72,
+    "hours_studied": 13,
+    "meeting_hours_per_week": 20,
+    "focus_hours_per_week": 6,
+    "weak_topics": ["Linux Basics", "SQL Filtering", "Alert Triage"],
+    "preferred_learning_slot": "Evening"
+  },
+  {
+    "learner_id": "L-1005",
+    "role": "Junior SOC Analyst",
+    "certification_goal": "SC-900",
+    "practice_score_avg": 88,
+    "hours_studied": 24,
+    "meeting_hours_per_week": 12,
+    "focus_hours_per_week": 16,
+    "weak_topics": ["Privacy Concepts"],
+    "preferred_learning_slot": "Morning"
+  }
+]
