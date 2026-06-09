@@ -58,6 +58,7 @@ Additional project documentation is available in the `docs` folder:
 - [Project Plan](docs/project_plan.md)
 - [Architecture](docs/architecture.md)
 - [Demo Script](docs/demo_script.md)
+- [Microsoft Foundry Setup](docs/foundry_setup.md)
 
 Synthetic knowledge sources are available in:
 
