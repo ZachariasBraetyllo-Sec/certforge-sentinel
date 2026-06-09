@@ -43,15 +43,25 @@ These files are synthetic and contain no real employee data, customer data, cred
 
 The Foundry IQ knowledge base was successfully created and processed.
 
-During testing, the agent returned an invalid parameter error when the knowledge base was attached directly to the agent using the available model deployment. The same model deployment worked successfully in the direct model playground, and the agent worked successfully after the knowledge base was detached.
+During testing, the agent returned an invalid parameter error when the knowledge base was attached directly to the agent using the available `gpt-oss-120b` model deployment.
 
-Current working configuration:
+Troubleshooting confirmed:
+
+- `gpt-oss-120b` works successfully in the direct model playground.
+- `gpt-oss-120b` works successfully in the CertForge-Sentinel agent when the knowledge base is detached.
+- The invalid parameter error occurs only when the Foundry IQ knowledge base is attached to the agent.
+- `Phi-4-mini-instruct` was also tested and responded successfully in the model playground.
+- `Phi-4-mini-instruct` could not be saved as an agent with knowledge in the current Foundry configuration.
+
+Final stable configuration for demo:
 
 - Foundry agent instructions: active
 - Model deployment: active
 - Foundry IQ knowledge base: created and processed
 - Knowledge base attachment to agent: detached for stable live testing
 - Streamlit prototype: uses the same synthetic data and knowledge structure locally
+
+The project still documents the intended Foundry IQ architecture and includes the created synthetic knowledge base files in the repository.
 
 ## Design Intent
 
