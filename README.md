@@ -51,6 +51,20 @@ This project is designed to integrate **Foundry IQ** as the grounding layer for 
 
 All knowledge sources and demo data are synthetic and created for hackathon demonstration purposes only.
 
+## Project Documentation
+
+Additional project documentation is available in the `docs` folder:
+
+- [Project Plan](docs/project_plan.md)
+- [Architecture](docs/architecture.md)
+- [Demo Script](docs/demo_script.md)
+
+Synthetic knowledge sources are available in:
+
+- [Cybersecurity Certification Guide](docs/knowledge_base/cybersecurity_certification_guide.md)
+- [Certification Readiness Rubric](docs/knowledge_base/readiness_rubric.md)
+- [Team Learning Report](docs/knowledge_base/team_learning_report.md)
+
 ## Planned Tech Stack
 
 * Microsoft Foundry
