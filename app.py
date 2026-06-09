@@ -199,6 +199,23 @@ if run_button:
 
 st.divider()
 
-st.caption(
+st.header("Microsoft Foundry Integration Status")
+
+st.markdown(
+    """
+    CertForge Sentinel is configured with a Microsoft Foundry agent named **CertForge-Sentinel**.
+
+    The project also includes a Foundry IQ knowledge base created from synthetic project files:
+
+    - Cybersecurity certification guide
+    - Certification readiness rubric
+    - Team learning report
+    - Synthetic learner/team data
+
+    During testing, the Foundry agent worked successfully with the deployed model. The Foundry IQ knowledge base was successfully created and processed, but its direct attachment to the agent produced an invalid-parameter error with the available model configuration. For stable demo purposes, the local Streamlit prototype mirrors the same multi-agent workflow using synthetic data and rule-based logic.
+    """
+)
+
+st.info(
     "All learner profiles, team data, and knowledge sources in this project are synthetic and created for demonstration only."
 )
